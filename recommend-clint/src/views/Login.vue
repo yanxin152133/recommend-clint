@@ -4,13 +4,13 @@
 
 
         <b-card
-                img-src="https://picsum.photos/600/300/?image=25"
-                img-alt="Image"
-                img-top
                 tag="article"
                 style="max-width: 20rem;"
                 class="mb-2"
         >
+            <div class="mb-2">
+                <b-avatar src="https://placekitten.com/300/300" size="6rem"></b-avatar>
+            </div>
 
             <loginForm></loginForm>
             <b-button href="#" variant="primary">login</b-button>
@@ -20,6 +20,7 @@
 
 <script>
 import loginForm from "../components/loginForm";
+
 export default {
     name: "Login",
     components: { loginForm }
