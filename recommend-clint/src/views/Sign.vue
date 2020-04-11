@@ -2,17 +2,16 @@
     <!--prettier-ignore-->
     <div>
         <b-container>
-            <login-form></login-form>
+            <SignFrom></SignFrom>
         </b-container>
     </div>
 </template>
 
 <script>
-import loginForm from "../components/loginForm";
-
+import SignFrom from "../components/signFrom";
 export default {
-    name: "Login",
-    components: { loginForm }
+    name: "Sign",
+    components: { SignFrom }
 };
 </script>
 

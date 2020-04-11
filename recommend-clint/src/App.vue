@@ -1,9 +1,7 @@
 <template>
     <!--prettier-ignore-->
     <div id="app">
-        <keep-alive>
-            <router-view></router-view>
-        </keep-alive>
+        <router-view/>
     </div>
 </template>
 
@@ -15,6 +13,4 @@
     text-align: center;
     color: #2c3e50;
 }
-
-
 </style>
