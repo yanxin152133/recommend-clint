@@ -39,7 +39,7 @@
                         </b-col>
                         <b-col cols="12" md="6"></b-col>
                         <b-col cols="auto" md="2">
-                            <router-link to="/">忘记密码？</router-link>
+                            <router-link to="/forget">忘记密码？</router-link>
                         </b-col>
                         <b-col cols="auto" md="2">
                             <router-link to="/sign">注册</router-link>
