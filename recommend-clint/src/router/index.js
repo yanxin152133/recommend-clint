@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Login from "../views/Login.vue";
 import Sign from "../views/Sign.vue";
 import Forget from "../views/Forget.vue";
+import Detail from "../views/Detail.vue";
 
 Vue.use(VueRouter);
 
@@ -23,9 +24,14 @@ const routes = [
         component: Sign
     },
     {
-        path: "/forget",  //忘记密码
+        path: "/forget", //忘记密码
         name: "Forget",
         component: Forget
+    },
+    {
+        path: "/detail", //详情页
+        name: "Detail",
+        component: Detail
     }
 ];
 

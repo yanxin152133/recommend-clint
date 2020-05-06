@@ -2,16 +2,16 @@
     <!--prettier-ignore-->
     <div>
         <b-container>
-            <forget-from></forget-from>
+            <detailForm></detailForm>
         </b-container>
     </div>
 </template>
 
 <script>
-import ForgetFrom from "../components/forgetForm";
+import detailForm from "../components/detailForm";
 export default {
-    name: "Forget",
-    components: { ForgetFrom }
+    name: "Detail",
+    components: { detailForm }
 };
 </script>
 
